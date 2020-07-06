@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>euroc2bag</name>
+  <version>0.1.0</version>
+  <description>Non-ROS to ROS dataset converter</description>
+
+  <maintainer email="phreakuencies@gmail.com">v01d</maintainer> 
+
+  <license>GPLv3</license>
+  
+  <author email="phreakuencies@gmail.com">v01d</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+
+  <export>
+  </export>
+</package>

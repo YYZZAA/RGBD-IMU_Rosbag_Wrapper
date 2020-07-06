@@ -1,0 +1,1 @@
+﻿将文件解压到catkin\_ws 下，使用catkin\_make进行编译运行方式：rosrun euroc2bag euroc2bag YOUR\_DATA\_PATH NUM\_OF\_YOUR\_IAMGES OUTPUT\_FILE\_NAME.bag比如：rosrun euroc2bag euroc2bag /media/yangyoung/DATA/_lab/SenseData/SenseTime/05 488 mytest.bag
